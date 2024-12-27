@@ -1,0 +1,122 @@
+body {
+  background: linear-gradient(90deg, #0f3443, #34e89e);
+  color: white;
+  padding: 10px;
+}
+
+.conver {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+
+h1 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#fix {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+textarea {
+  border-radius: 10px;
+  font-family: "RocknRoll One", sans-serif;
+  padding: 15px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+  background: #ffffff33;
+  color: white;
+  resize: none;
+}
+
+textarea::placeholder {
+  color: rgba(255, 255, 255, 0.664);
+}
+
+span {
+  color: black;
+  padding: 0px 6px;
+  font-family: serif;
+}
+
+.row {
+  margin-top: 40px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+button {
+  background: black;
+  cursor: pointer;
+  color: white;
+  border: 0;
+  text-align: center;
+  letter-spacing: 8px;
+  font-weight: bold;
+  width: 180px;
+  height: 45px;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+select {
+  padding: 13px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'%3E%3Cpath d='M12 16L6 10H18L12 16Z'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: 97%;
+  background-color: #ffffff55;
+  background-size: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 20px;
+  width: 80%;
+  text-align: center;
+  padding-right: 40px;
+  appearance: none;
+}
+
+@media (min-width: 800px) {
+  .conver {
+    width: 70%;
+  }
+
+  textarea {
+    width: 100%;
+    resize: none;
+  }
+
+  .row {
+    width: 90%;
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  button {
+    margin: 0;
+    width: 30%;
+    letter-spacing: 6px;
+  }
+
+  select {
+    background-position: 97%;
+    margin: 0;
+    flex: 1;
+    overflow-x: scroll;
+    padding-right: 40px;
+  }
+}
