@@ -23,7 +23,7 @@ To get a local copy up and running, follow these steps:
 
 2. Navigate into the project directory
    ```bash
-   cd devdash
+   cd converter
 
 3. Install dependencies
    ```bash 
