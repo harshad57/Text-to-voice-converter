@@ -9,9 +9,9 @@ This project is a Text-to-Voice converter that allows users to input text and re
 - Support for multiple languages
 
 ## Technologies Used :-
-- HTML
-- CSS
-- JavaScript
+- [HTML](index.html)
+- [CSS](src/style.css)
+- [JavaScript](src/script.js)
 
 ## Getting Started :-
 
