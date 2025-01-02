@@ -10,8 +10,8 @@ This project is a Text-to-Voice converter that allows users to input text and re
 
 ## Technologies Used :-
 - [HTML](index.html)
-- [CSS](src/style.css)
-- [JavaScript](src/script.js)
+- [CSS](src/index.css)
+- [JavaScript (React)](src/App.jsx)
 
 ## Getting Started :-
 
