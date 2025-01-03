@@ -1,6 +1,6 @@
 # Text-to-Voice Converter
 
-## Overview :-
+## Overview
 This project is a Text-to-Voice converter that allows users to input text and receive an audio output of the text being read aloud. It is built using HTML, CSS, and JavaScript.
 
 ## Features :-
